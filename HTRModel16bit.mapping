@@ -1,0 +1,547 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/transpose" out_port_id="0"/>
+		<IR id="46" name="bidirectional/backward_lstm_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="43" name="bidirectional/forward_lstm_1/transpose_1/Cast_19454_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="reshape/Reshape" out_port_id="0"/>
+		<IR id="37" name="reshape/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/transpose" out_port_id="0"/>
+		<IR id="96" name="bidirectional_3/forward_lstm_3_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="80" name="bidirectional_2/forward_lstm_2_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/while/Enter_3" out_port_id="0"/>
+		<IR id="107" name="bidirectional_3/backward_lstm_3_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="15" name="batch_normalization_2/cond/FusedBatchNormV3_1/mean/Fused_Mul_66996701_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="8" name="batch_normalization_1/cond/FusedBatchNormV3_1/mean/Fused_Mul_66956697_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/while/Enter_3" out_port_id="0"/>
+		<IR id="79" name="bidirectional_2/forward_lstm_2_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot" out_port_id="0"/>
+		<IR id="138" name="dense/Tensordot" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/transpose_1" out_port_id="0"/>
+		<IR id="63" name="bidirectional_1/forward_lstm_1_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/while/Enter_3" out_port_id="0"/>
+		<IR id="69" name="bidirectional_1/backward_lstm_1_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="leaky_re_lu_2/LeakyRelu" out_port_id="0"/>
+		<IR id="20" name="leaky_re_lu_2/LeakyRelu8128" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_2/cond/Merge" out_port_id="0"/>
+		<IR id="18" name="conv2d_2/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_2/cond/FusedBatchNormV3_1" out_port_id="0"/>
+		<IR id="18" name="conv2d_2/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="leaky_re_lu_4/LeakyRelu" out_port_id="0"/>
+		<IR id="35" name="leaky_re_lu_4/LeakyRelu/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/transpose" out_port_id="0"/>
+		<IR id="115" name="bidirectional_4/forward_lstm_4_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_1/cond/Merge" out_port_id="0"/>
+		<IR id="11" name="conv2d_1/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_1/cond/FusedBatchNormV3_1" out_port_id="0"/>
+		<IR id="11" name="conv2d_1/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/transpose/perm" out_port_id="0"/>
+		<IR id="102" name="bidirectional_3/backward_lstm_3_1/transpose/Cast_19418_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/transpose/perm" out_port_id="0"/>
+		<IR id="38" name="bidirectional/forward_lstm_1/transpose/Cast_19428_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/while/Enter_2" out_port_id="0"/>
+		<IR id="87" name="bidirectional_2/backward_lstm_2_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="input" out_port_id="0"/>
+		<IR id="0" name="input" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="leaky_re_lu/LeakyRelu" out_port_id="0"/>
+		<IR id="6" name="leaky_re_lu/LeakyRelu8120" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/while/Enter_2" out_port_id="0"/>
+		<IR id="97" name="bidirectional_3/forward_lstm_3_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/transpose/perm" out_port_id="0"/>
+		<IR id="95" name="bidirectional_3/forward_lstm_3_1/transpose/Cast_19456_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/Conv2D" out_port_id="0"/>
+		<IR id="16" name="conv2d_2/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="22" name="batch_normalization_3/cond/FusedBatchNormV3_1/mean/Fused_Mul_67036705_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/while/Enter_3" out_port_id="0"/>
+		<IR id="41" name="bidirectional/forward_lstm_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/transpose" out_port_id="0"/>
+		<IR id="39" name="bidirectional/forward_lstm_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/ReverseV2" out_port_id="0"/>
+		<IR id="131" name="bidirectional_4/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/transpose/perm" out_port_id="0"/>
+		<IR id="76" name="bidirectional_2/forward_lstm_2_1/transpose/Cast_19452_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/transpose" out_port_id="0"/>
+		<IR id="122" name="bidirectional_4/backward_lstm_4_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/transpose_1" out_port_id="0"/>
+		<IR id="53" name="bidirectional/backward_lstm_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization/cond/Merge" out_port_id="0"/>
+		<IR id="4" name="conv2d/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization/cond/FusedBatchNormV3_1" out_port_id="0"/>
+		<IR id="4" name="conv2d/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="118" name="bidirectional_4/forward_lstm_4_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/while/Enter_2" out_port_id="0"/>
+		<IR id="49" name="bidirectional/backward_lstm_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="136" name="dense/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/concat" out_port_id="0"/>
+		<IR id="75" name="bidirectional_1/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/ReverseV2" out_port_id="0"/>
+		<IR id="74" name="bidirectional_1/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dropout_2/cond/Merge" out_port_id="0"/>
+		<IR id="27" name="leaky_re_lu_3/LeakyRelu8112" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dropout_2/cond/Identity" out_port_id="0"/>
+		<IR id="27" name="leaky_re_lu_3/LeakyRelu8112" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dropout_2/cond/Identity/Switch" out_port_id="0"/>
+		<IR id="27" name="leaky_re_lu_3/LeakyRelu8112" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="leaky_re_lu_3/LeakyRelu" out_port_id="0"/>
+		<IR id="27" name="leaky_re_lu_3/LeakyRelu8112" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/transpose_1" out_port_id="0"/>
+		<IR id="44" name="bidirectional/forward_lstm_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/Conv2D" out_port_id="0"/>
+		<IR id="23" name="conv2d_3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="leaky_re_lu_1/LeakyRelu" out_port_id="0"/>
+		<IR id="13" name="leaky_re_lu_1/LeakyRelu8124" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/ReverseV2" out_port_id="0"/>
+		<IR id="93" name="bidirectional_2/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/while/Enter_2" out_port_id="0"/>
+		<IR id="125" name="bidirectional_4/backward_lstm_4_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/ReverseV2" out_port_id="0"/>
+		<IR id="67" name="bidirectional_1/backward_lstm_1_1/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/ReverseV2" out_port_id="0"/>
+		<IR id="55" name="bidirectional/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/ReverseV2" out_port_id="0"/>
+		<IR id="48" name="bidirectional/backward_lstm_1/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="51" name="bidirectional/backward_lstm_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="71" name="bidirectional_1/backward_lstm_1_1/transpose_1/Cast_19458_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/transpose/perm" out_port_id="0"/>
+		<IR id="57" name="bidirectional_1/forward_lstm_1_1/transpose/Cast_19444_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/while/Enter_3" out_port_id="0"/>
+		<IR id="117" name="bidirectional_4/forward_lstm_4_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/while/Enter_3" out_port_id="0"/>
+		<IR id="98" name="bidirectional_3/forward_lstm_3_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/while/Enter_2" out_port_id="0"/>
+		<IR id="59" name="bidirectional_1/forward_lstm_1_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="52" name="bidirectional/backward_lstm_1/transpose_1/Cast_19440_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/truediv" out_port_id="0"/>
+		<IR id="141" name="dense/BiasAdd/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="70" name="bidirectional_1/backward_lstm_1_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional/concat" out_port_id="0"/>
+		<IR id="56" name="bidirectional/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d/MaxPool" out_port_id="0"/>
+		<IR id="7" name="max_pooling2d/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="119" name="bidirectional_4/forward_lstm_4_1/transpose_1/Cast_19468_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/while/Enter_2" out_port_id="0"/>
+		<IR id="78" name="bidirectional_2/forward_lstm_2_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dropout_1/cond/Merge" out_port_id="0"/>
+		<IR id="21" name="max_pooling2d_2/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dropout_1/cond/Identity" out_port_id="0"/>
+		<IR id="21" name="max_pooling2d_2/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dropout_1/cond/Identity/Switch" out_port_id="0"/>
+		<IR id="21" name="max_pooling2d_2/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d_2/MaxPool" out_port_id="0"/>
+		<IR id="21" name="max_pooling2d_2/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/while/Enter_3" out_port_id="0"/>
+		<IR id="50" name="bidirectional/backward_lstm_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/transpose/perm" out_port_id="0"/>
+		<IR id="114" name="bidirectional_4/forward_lstm_4_1/transpose/Cast_19470_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/transpose_1" out_port_id="0"/>
+		<IR id="110" name="bidirectional_3/backward_lstm_3_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_4/cond/Merge" out_port_id="0"/>
+		<IR id="31" name="conv2d_4/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_4/cond/FusedBatchNormV3_1" out_port_id="0"/>
+		<IR id="31" name="conv2d_4/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="81" name="bidirectional_2/forward_lstm_2_1/transpose_1/Cast_19426_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/transpose_1" out_port_id="0"/>
+		<IR id="82" name="bidirectional_2/forward_lstm_2_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/transpose_1" out_port_id="0"/>
+		<IR id="91" name="bidirectional_2/backward_lstm_2_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional/backward_lstm_1/transpose/perm" out_port_id="0"/>
+		<IR id="45" name="bidirectional/backward_lstm_1/transpose/Cast_19432_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="127" name="bidirectional_4/backward_lstm_4_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="61" name="bidirectional_1/forward_lstm_1_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/transpose" out_port_id="0"/>
+		<IR id="65" name="bidirectional_1/backward_lstm_1_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="89" name="bidirectional_2/backward_lstm_2_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2d_4/Conv2D" out_port_id="0"/>
+		<IR id="29" name="conv2d_4/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/transpose_1" out_port_id="0"/>
+		<IR id="72" name="bidirectional_1/backward_lstm_1_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/while/Enter_2" out_port_id="0"/>
+		<IR id="68" name="bidirectional_1/backward_lstm_1_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/transpose_1" out_port_id="0"/>
+		<IR id="120" name="bidirectional_4/forward_lstm_4_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="108" name="bidirectional_3/backward_lstm_3_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/forward_lstm_4_1/while/Enter_2" out_port_id="0"/>
+		<IR id="116" name="bidirectional_4/forward_lstm_4_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/stack" out_port_id="0"/>
+		<IR id="133" name="dense/Tensordot/Reshape/Cast_19450_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d/Conv2D" out_port_id="0"/>
+		<IR id="2" name="conv2d/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/while/Enter_3" out_port_id="0"/>
+		<IR id="126" name="bidirectional_4/backward_lstm_4_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="1" name="batch_normalization/cond/FusedBatchNormV3_1/mean/Fused_Mul_66916693_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/while/Enter_2" out_port_id="0"/>
+		<IR id="40" name="bidirectional/forward_lstm_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/transpose_1" out_port_id="0"/>
+		<IR id="129" name="bidirectional_4/backward_lstm_4_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/while/Enter_3" out_port_id="0"/>
+		<IR id="88" name="bidirectional_2/backward_lstm_2_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="90" name="bidirectional_2/backward_lstm_2_1/transpose_1/Cast_19462_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/transpose/perm" out_port_id="0"/>
+		<IR id="121" name="bidirectional_4/backward_lstm_4_1/transpose/Cast_19460_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="62" name="bidirectional_1/forward_lstm_1_1/transpose_1/Cast_19420_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/transpose/perm" out_port_id="0"/>
+		<IR id="83" name="bidirectional_2/backward_lstm_2_1/transpose/Cast_19436_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/forward_lstm_2_1/transpose" out_port_id="0"/>
+		<IR id="77" name="bidirectional_2/forward_lstm_2_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="100" name="bidirectional_3/forward_lstm_3_1/transpose_1/Cast_19416_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="128" name="bidirectional_4/backward_lstm_4_1/transpose_1/Cast_19430_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/Reshape_1" out_port_id="0"/>
+		<IR id="135" name="dense/Tensordot/MatMul/1_port_transpose7976_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/Conv2D" out_port_id="0"/>
+		<IR id="9" name="conv2d_1/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/transpose_1/perm" out_port_id="0"/>
+		<IR id="109" name="bidirectional_3/backward_lstm_3_1/transpose_1/Cast_19442_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/transpose" out_port_id="0"/>
+		<IR id="58" name="bidirectional_1/forward_lstm_1_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/transpose" out_port_id="0"/>
+		<IR id="103" name="bidirectional_3/backward_lstm_3_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/transpose_1" out_port_id="0"/>
+		<IR id="101" name="bidirectional_3/forward_lstm_3_1/transpose_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_4/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="28" name="batch_normalization_4/cond/FusedBatchNormV3_1/mean/Fused_Mul_67076709_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/concat_1" out_port_id="0"/>
+		<IR id="137" name="dense/Tensordot/Cast_19464_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/transpose" out_port_id="0"/>
+		<IR id="84" name="bidirectional_2/backward_lstm_2_1/transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/concat" out_port_id="0"/>
+		<IR id="113" name="bidirectional_3/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/while/Enter_2" out_port_id="0"/>
+		<IR id="106" name="bidirectional_3/backward_lstm_3_1/while/Enter_2/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional/forward_lstm_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="42" name="bidirectional/forward_lstm_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/backward_lstm_4_1/ReverseV2" out_port_id="0"/>
+		<IR id="124" name="bidirectional_4/backward_lstm_4_1/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/backward_lstm_2_1/ReverseV2" out_port_id="0"/>
+		<IR id="86" name="bidirectional_2/backward_lstm_2_1/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/ReverseV2" out_port_id="0"/>
+		<IR id="112" name="bidirectional_3/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dropout/cond/Merge" out_port_id="0"/>
+		<IR id="14" name="max_pooling2d_1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dropout/cond/Identity" out_port_id="0"/>
+		<IR id="14" name="max_pooling2d_1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dropout/cond/Identity/Switch" out_port_id="0"/>
+		<IR id="14" name="max_pooling2d_1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d_1/MaxPool" out_port_id="0"/>
+		<IR id="14" name="max_pooling2d_1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_3/cond/Merge" out_port_id="0"/>
+		<IR id="25" name="conv2d_3/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_3/cond/FusedBatchNormV3_1" out_port_id="0"/>
+		<IR id="25" name="conv2d_3/BiasAdd/Add/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/forward_lstm_1_1/while/Enter_3" out_port_id="0"/>
+		<IR id="60" name="bidirectional_1/forward_lstm_1_1/while/Enter_3/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dropout_3/cond/Merge" out_port_id="0"/>
+		<IR id="132" name="bidirectional_4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dropout_3/cond/Identity" out_port_id="0"/>
+		<IR id="132" name="bidirectional_4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dropout_3/cond/Identity/Switch" out_port_id="0"/>
+		<IR id="132" name="bidirectional_4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_4/concat" out_port_id="0"/>
+		<IR id="132" name="bidirectional_4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/transpose" out_port_id="0"/>
+		<IR id="132" name="bidirectional_4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="134" name="dense/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/backward_lstm_3_1/ReverseV2" out_port_id="0"/>
+		<IR id="105" name="bidirectional_3/backward_lstm_3_1/ReverseV2/ReverseSequence/" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_2/concat" out_port_id="0"/>
+		<IR id="94" name="bidirectional_2/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="bidirectional_1/backward_lstm_1_1/transpose/perm" out_port_id="0"/>
+		<IR id="64" name="bidirectional_1/backward_lstm_1_1/transpose/Cast_19448_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="bidirectional_3/forward_lstm_3_1/TensorArrayStack/TensorArrayGatherV3" out_port_id="0"/>
+		<IR id="99" name="bidirectional_3/forward_lstm_3_1/while/LoopCond/TensorIteratorCondition_/TensorIterator" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="reshape/Reshape/shape" out_port_id="0"/>
+		<IR id="36" name="reshape/Reshape/Cast_19466_const" out_port_id="1"/>
+	</map>
+</mapping>
